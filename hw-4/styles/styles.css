@@ -15,8 +15,6 @@ body {
 
 .wrapper {
   max-width: 1440px;
-  height: 100%;
-  margin: auto 0;
   padding: 40px 170px;
 }
 
@@ -41,7 +39,6 @@ body {
   display: inline-block;
   background: #fff;
   max-width: 257px;
-  height: 327px;
   padding: 20px;
   text-align: center;
   border: 3px solid black;
@@ -56,16 +53,15 @@ body {
   transform: scale(0.8);
   background-color: #6177eb;
 }
-.hero__image {
-  max-width: 100%;
-  margin: 0 auto;
-}
 .hero__item-title {
   color: #000;
   font-weight: 700;
   font-size: 12px;
   text-align: center;
   margin-bottom: 12px;
+}
+.hero__image {
+  margin: 0 auto;
 }
 .hero__item-subtitle {
   width: 220px;
