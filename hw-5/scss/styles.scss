@@ -190,7 +190,7 @@ a {
     margin-top: 21px;
   }
 
-  &__checkbox {
+  &__item {
     max-width: 360px;
     display: flex;
     gap: 19px;
@@ -248,13 +248,13 @@ a {
     margin-bottom: 28px;
   }
 
-  &__checkbox {
+  &__checkbox-item {
     display: flex;
     gap: 19px;
     align-items: center;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
     &:last-child {
-      margin-bottom: 0px;
+      margin-bottom: 31px;
     }
   }
 

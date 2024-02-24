@@ -185,14 +185,14 @@ a:hover {
   margin-bottom: 30px;
   margin-top: 21px;
 }
-.advance__checkbox {
+.advance__item {
   max-width: 360px;
   display: flex;
   gap: 19px;
   align-items: center;
   margin-bottom: 38px;
 }
-.advance__checkbox:last-child {
+.advance__item:last-child {
   margin-bottom: 0px;
 }
 .advance__checkbox-text {
@@ -235,14 +235,14 @@ a:hover {
   line-height: 24px; /* 150% */
   margin-bottom: 28px;
 }
-.card__checkbox {
+.card__checkbox-item {
   display: flex;
   gap: 19px;
   align-items: center;
-  margin-bottom: 34px;
+  margin-bottom: 30px;
 }
-.card__checkbox:last-child {
-  margin-bottom: 0px;
+.card__checkbox-item:last-child {
+  margin-bottom: 31px;
 }
 .card__checkbox-text {
   max-width: 286px;
