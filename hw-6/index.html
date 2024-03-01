@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex home work</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-header">
+        <div class="header__menu">
+          <img
+            src="/images/logo-header.svg"
+            alt="logo header"
+            width="130"
+            height="40"
+            loading="lazy"
+          />
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">Features</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">Pricing</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">Blog</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">Docs</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">Changelog</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="/" class="header__menu-link">We're hiring</a>
+            </li>
+          </ul>
+          <button class="header__menu-button" type="button">Login</button>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <section class="section-hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__content-text">
+              <h1 class="hero__content-title">
+                Always<br />
+                Ready to Code.
+              </h1>
+              <p class="hero__content-description">
+                Spin up fresh, automated dev environments for each task, in the
+                cloud, in seconds.
+              </p>
+              <div class="hero__button-menu">
+                <button class="hero__button-btn" type="button">Try Now</button>
+                <span class="hero__button-text"
+                  >Open a workspace.<br />
+                  Start from any Git context.</span
+                >
+              </div>
+              <ul class="hero__soc1al-list">
+                <li class="hero__soc1al-item">
+                  <img
+                    src="./images/fox-icon.svg"
+                    alt="fox icon"
+                    class="hero__soc1al-icon"
+                    width="29"
+                    height="29"
+                    loading="lazy"
+                  />
+                </li>
+                <li class="hero__soc1al-item">
+                  <img
+                    src="./images/git-icon.svg"
+                    alt="icon git"
+                    class="hero__soc1al-icon"
+                    width="29"
+                    height="29"
+                    loading="lazy"
+                  />
+                </li>
+                <li class="hero__soc1al-item">
+                  <img
+                    src="./images/3-icon.svg"
+                    alt="icon"
+                    class="hero__soc1al-icon"
+                    width="29"
+                    height="29"
+                    loading="lazy"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="hero__content-bg">
+              <img
+                src="./images/hero-image.png"
+                alt="image hero"
+                class="hero__content-image"
+                width="630"
+                height="652"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-launch">
+        <div class="container">
+          <div class="launch__content box">
+            <div class="launch__content-image image">
+              <img
+                src="./images/launch-image.jpg"
+                alt="launch image"
+                width="590"
+                height="472"
+                loading="lazy"
+              />
+            </div>
+            <div class="launch__content-text text">
+              <h2 class="launch__content-title title">
+                Launch an example workspace
+              </h2>
+              <p class="launch__content-description description">
+                We invented prebuilds so application code, configuration and
+                infrastructure can all be stored as machine-executable code in
+                your git repositories and applied to dev environments
+                automatically and continuously.
+              </p>
+              <div class="launch__button-box box">
+                <button class="launch__button-left left" type="button">
+                  More on prebuilds
+                </button>
+                <button class="launch__button-right right" type="button">
+                  Documentation
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-think">
+        <div class="container">
+          <div class="think__content box">
+            <div class="think__content-image image">
+              <img
+                src="./images/launch-image.jpg"
+                alt="think image"
+                width="590"
+                height="472"
+                loading="lazy"
+              />
+            </div>
+            <div class="think__content-text text">
+              <h2 class="think__content-title title">
+                Think CI/CD for dev environments
+              </h2>
+              <p class="think__content-description description">
+                We invented prebuilds so application code, configuration and
+                infrastructure can all be stored as machine-executable code in
+                your git repositories and applied to dev environments
+                automatically and continuously.
+              </p>
+              <div class="think__button-box box">
+                <button class="think__button-left left" type="button">
+                  More on prebuilds
+                </button>
+                <button class="think__button-right right" type="button">
+                  Documentation
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="remote">
+        <div class="container">
+          <div class="remote__content">
+            <h2 class="remote__content-title">
+              Remote-first. Secure by design.
+            </h2>
+            <img
+              src="./images/Remote-image.jpg"
+              alt="image remote"
+              width="1260"
+              height="820"
+              loading="lazy"
+              class="remote__content-image"
+            />
+          </div>
+          <div class="remote__content-bottom">
+            <p class="remote__content-discription">
+              You no longer need an over-powered laptop to code, Gitpod works
+              just as smoothly on a Chromebook or iPad. All you need is a
+              browser. Gitpod centralizes all source code and never stores it on
+              insecure machines and networks.
+            </p>
+            <div class="remote__button-box">
+              <button class="remote__button-google" type="button">
+                <img
+                  src="./images/google.svg"
+                  alt="google"
+                  class="remote__button-image"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                />
+                <span class="remote__button-text">Chrome Extension</span>
+              </button>
+              <button class="remote__button-fox" type="button">
+                <img
+                  src="./images/firefox.svg"
+                  alt="firefox"
+                  class="remote__button-image"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                />
+                <span class="remote__button-text">Firefox Extension</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="developers">
+        <div class="container">
+          <div class="developers__content">
+            <h2 class="developers__content-title">
+              Used by 400,000+ developers.
+            </h2>
+            <div class="developers__card">
+              <div class="developers__card-left">
+                <span class="developers__card-description"
+                  >GitPod is incredibly cool.</span
+                >
+                <span class="developers__card-description"
+                  >In my opinion, this is a big step in open source software
+                  contribution. I'm excited to see where we go from here.</span
+                >
+                <div class="developers__card-info">
+                  <img
+                    src="./images/ben.png"
+                    alt="Ben"
+                    width="48"
+                    height="48"
+                  />
+                  <div class="developers__card-name-box">
+                    <h3 class="developers__card-title">Ben Halpern</h3>
+                    <p class="developer__card-name-info">
+                      Creator and Co-founder<span
+                        class="developers__card-strong"
+                        >@forem</span
+                      >
+                      and<br /><span class="developers__card-strong"
+                        >@ThePracticalDev</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="developers__card-midle">
+                <span class="developers__card-description-midle">
+                  Let's say we were overwhelmed how smooth @gitpod workspaces
+                  creation & own Docker image for workspaces worked.
+                </span>
+
+                <span class="developers__card-description-midle"
+                  >Plus, installing @code extensions from the store and
+                  integrating @gitlab CI. That blew my mind entirely, and that
+                  is hard ;)</span
+                >
+                <div class="developers__card-info">
+                  <img
+                    src="./images/michael.png"
+                    alt="Ben"
+                    width="48"
+                    height="48"
+                  />
+                  <div class="developers__card-name-box">
+                    <h4 class="developers__card-title">Michael Friedrich</h4>
+                    <p class="developer__card-name-info">
+                      Developer Evangelist<span
+                        class="developers__card-strong-midle"
+                        >@GitLab</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="developers__card-right">
+                <span class="developers__card-description-right"
+                  >Look at any PR (pull request) in a full coding environment
+                  where you can edit, build</span
+                >
+
+                <div class="developers__card-info">
+                  <img
+                    src="./images/Julius.png"
+                    alt="Ben"
+                    width="48"
+                    height="48"
+                  />
+                  <div class="developers__card-name-box">
+                    <h5 class="developers__card-title">Julius Volz</h5>
+                    <p class="developer__card-name-info">
+                      Creator<span class="developers__card-strong-right"
+                        >@PrometheusIO</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="developers__soc1al">
+            <ul class="developers__soc1al-list">
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/gitlab-icon.svg" alt="gitlab"
+                /></a>
+              </li>
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/freecode-icon.svg" alt="freecode"
+                /></a>
+              </li>
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/dwave.svg" alt="dwave"
+                /></a>
+              </li>
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/google-icon.svg" alt="Google"
+                /></a>
+              </li>
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/amazon.svg" alt="amazon"
+                /></a>
+              </li>
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/facebook.svg" alt="facebook"
+                /></a>
+              </li>
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/uber.svg" alt="Uber"
+                /></a>
+              </li>
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/intel.svg" alt="IntelCore"
+                /></a>
+              </li>
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/theia.svg" alt="theia"
+                /></a>
+              </li>
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/code.svg" alt="code"
+                /></a>
+              </li>
+              <li class="developers__soc1al-item">
+                <a href="/" class="developers__soc1al-link">
+                  <img src="./images/4geks.svg" alt="4geeks"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="get">
+        <div class="container">
+          <div class="get__content">
+            <h2 class="get__content-title">Get started now</h2>
+            <div class="get__content-box">
+              <div class="get__right">
+                <h3 class="get__right-title">Connect Git repository</h3>
+                <p class="get__right-description">
+                  Select a Git provider to start with an existing project from
+                  any Git context.
+                </p>
+                <div class="get__right-buttons">
+                  <button class="get__right-gitlab" type="button">
+                    <img
+                      src="./images/btn-icon.svg"
+                      alt="gitlab"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                    />
+                    <span class="get__right-button-text"
+                      >Continue with GitLab</span
+                    >
+                  </button>
+                  <button class="get__right-github" type="button">
+                    <img
+                      src="./images/btn-icon-2.svg"
+                      alt="gitlab"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                    />
+                    <span class="get__right-button-text"
+                      >Continue with GitLab</span
+                    >
+                  </button>
+                  <button class="get__right-bit" type="button">
+                    <img
+                      src="./images/btn-icon-3.svg"
+                      alt="gitlab"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                    />
+                    <span class="get__right-button-text"
+                      >Continue with GitLab</span
+                    >
+                  </button>
+                </div>
+                <span class="get__right-description"
+                  >Or prefix any GitLab, GitHub or Bitbucket URL with</span
+                >
+              </div>
+              <div class="get__left">
+                <h4 class="get__left-title">Launch an example workspace</h4>
+                <span class="get__left-description"
+                  >Dive into one of our example workspaces</span
+                >
+                <ul class="get__left-list">
+                  <li class="get__left-item">
+                    <div class="get__left-item-box">
+                      <img
+                        src="./images/workspace-1.svg"
+                        alt="ts"
+                        width="27"
+                        height="27"
+                        loading="lazy"
+                      />
+                      <span class="get__left-item-description"
+                        >Node or TypeScript</span
+                      >
+                    </div>
+                    <button class="get__left-item-button" type="button">
+                      Launch workspace
+                    </button>
+                  </li>
+                  <li class="get__left-item">
+                    <div class="get__left-item-box">
+                      <img
+                        src="./images/workspace-2.svg"
+                        alt="ts"
+                        width="27"
+                        height="27"
+                        loading="lazy"
+                      />
+                      <span class="get__left-item-description">Python</span>
+                    </div>
+                    <button class="get__left-item-button" type="button">
+                      Launch workspace
+                    </button>
+                  </li>
+                  <li class="get__left-item">
+                    <div class="get__left-item-box">
+                      <img
+                        src="./images/workspace-3.svg"
+                        alt="ts"
+                        width="27"
+                        height="27"
+                        loading="lazy"
+                      />
+                      <span class="get__left-item-description">Go</span>
+                    </div>
+                    <button class="get__left-item-button" type="button">
+                      Launch workspace
+                    </button>
+                  </li>
+                  <li class="get__left-item">
+                    <div class="get__left-item-box">
+                      <img
+                        src="./images/workspace-4.svg"
+                        alt="ts"
+                        width="27"
+                        height="27"
+                        loading="lazy"
+                      />
+                      <span class="get__left-item-description">Rust</span>
+                    </div>
+                    <button class="get__left-item-button" type="button">
+                      Launch workspace
+                    </button>
+                  </li>
+                  <li class="get__left-item">
+                    <div class="get__left-item-box">
+                      <img
+                        src="./images/workspace-5.svg"
+                        alt="ts"
+                        width="27"
+                        height="27"
+                        loading="lazy"
+                      />
+                      <span class="get__left-item-description">Java</span>
+                    </div>
+                    <button class="get__left-item-button" type="button">
+                      Launch workspace
+                    </button>
+                  </li>
+                  <li class="get__left-item">
+                    <div class="get__left-item-box">
+                      <img
+                        src="./images/workspace-6.svg"
+                        alt="ts"
+                        width="27"
+                        height="27"
+                        loading="lazy"
+                      />
+                      <span class="get__left-item-description">Svelte</span>
+                    </div>
+                    <button class="get__left-item-button" type="button">
+                      Launch workspace
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="footer__navigation-box">
+          <nav class="footer__navigation">
+            <ul class="footer__navigation-list">
+              <h2 class="footer__navigation-list-title">Gitpod</h2>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Home</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Features</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Pricing</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Changelog</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Self-Hosted</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Gitpod vs GitHub</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Codespaces</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Status</a>
+              </li>
+            </ul>
+            <ul class="footer__navigation-list">
+              <h3 class="footer__navigation-list-title">Developer</h3>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Getting started</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Screencasts</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Blog</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Documentation</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Report a bug</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Community</a>
+              </li>
+            </ul>
+            <ul class="footer__navigation-list">
+              <h4 class="footer__navigation-list-title">Company</h4>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">About</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Careers</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Contact</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Media Kit</a>
+              </li>
+            </ul>
+            <ul class="footer__navigation-list">
+              <h5 class="footer__navigation-list-title">Legal</h5>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Imprint</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Terms of Service</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a href="/" class="footer__navigation-link">Privacy Policy</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__copyright-box">
+            <div class="footer__copyright-logo">
+              <img
+                src="./images/copyright-icon.svg"
+                alt="logo"
+                width="24"
+                height="24"
+                loading="lazy"
+              />
+              <span class="footer__copyright-text">Copyright ©2021Gitpod</span>
+            </div>
+            <ul class="footer__copyright-list">
+              <li class="footer__copyright-item">
+                <a href="/" class="footer__copyright-link"
+                  ><img src="./images/twitter-icon.svg" alt="twitter"
+                /></a>
+              </li>
+              <li class="footer__copyright-item">
+                <a href="/" class="footer__copyright-link"
+                  ><img src="./images/gitlab-icon-footer.svg" alt="gitlab"
+                /></a>
+              </li>
+              <li class="footer__copyright-item">
+                <a href="/" class="footer__copyright-link"
+                  ><img src="./images/sms-icon.svg" alt="twitter"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
