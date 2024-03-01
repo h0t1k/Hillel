@@ -77,6 +77,9 @@ body {
   line-height: 31.92px; /* 138.783% */
   margin-bottom: 48px;
 }
+.hero__content-image {
+  color: transparent;
+}
 .hero__button-menu {
   display: flex;
   column-gap: 24px;
