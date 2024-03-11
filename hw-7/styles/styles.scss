@@ -1,0 +1,202 @@
+@import url(https://fonts.googleapis.com/css?family=Lexend:100,200,300,regular,500,600,700,800,900);
+
+body {
+  font-family: Lexed;
+  font-style: normal;
+  font-weight: 400;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.button {
+  padding: 9px 17px;
+  color: #18181b;
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  border: 1px solid #18181b;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.button-hex {
+  border: 1px solid #4cfdc7;
+  background: #4cfdc7;
+}
+.btn-fz {
+  font-size: 16px;
+}
+.button-green {
+  background: #9afd4c;
+  font-size: 11px;
+  border: none;
+}
+.header {
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 136px 86px 0px 32px;
+    &__aside {
+      padding-top: 33px;
+    }
+    &__title {
+      max-width: 659px;
+      color: #000;
+      font-size: 71px;
+      line-height: 90px; /* 126.761% */
+      letter-spacing: 1px;
+      margin-bottom: 33px;
+    }
+    &__description {
+      max-width: 461px;
+      color: #27272a;
+      font-size: 20px;
+      line-height: 30px; /* 150% */
+      letter-spacing: 0.1px;
+      margin-bottom: 30px;
+    }
+    &__buttons-group {
+      display: flex;
+      column-gap: 15px;
+      padding-left: 10px;
+    }
+    &__wrapper-image {
+      max-width: 293px;
+    }
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 32px 0px 32px;
+    align-items: center;
+
+    &-menu {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+    }
+    &__item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    &__list {
+      display: flex;
+      column-gap: 32px;
+    }
+    &__link {
+      color: #18181b;
+      text-align: center;
+      font-size: 16px;
+      line-height: 20px; /* 125% */
+      text-decoration: none;
+    }
+    &__buttons-group {
+      display: flex;
+      gap: 7px;
+    }
+    &__button-sign {
+    }
+  }
+}
+
+.hero {
+  .content {
+    padding: 22px 32px;
+    &__top {
+      display: flex;
+      column-gap: 32px;
+      justify-content: center;
+      padding-bottom: 26px;
+      border-bottom: 1px solid #f4f4f5;
+      &-smalltitle {
+        color: #18181b;
+        font-size: 14px;
+        line-height: 14px; /* 100% */
+        letter-spacing: 0.1px;
+        &:last-child {
+          color: #71717a;
+        }
+      }
+    }
+    &-table {
+      &__top {
+        display: flex;
+        padding: 16px 275px 16px 9px;
+        column-gap: 170px;
+        border-bottom: 1px solid #f4f4f5;
+        &-title {
+          color: #18181b;
+          font-size: 13px;
+          line-height: 17.5px; /* 134.615% */
+          flex: 1;
+          &:first-child {
+            padding-left: 32px;
+          }
+        }
+      }
+
+      &__list {
+        display: flex;
+        align-items: center;
+        padding: 16px 32px;
+        border-bottom: 1px solid #f4f4f5;
+      }
+
+      &__text {
+        color: #18181b;
+        font-size: 16px;
+        line-height: 20px; /* 125% */
+      }
+      &__item {
+        display: flex;
+        gap: 8px;
+        flex: 1;
+        align-items: center;
+      }
+      &__text-green {
+        color: #10b981;
+        font-size: 16px;
+        line-height: 20px; /* 125% */
+      }
+      &__text-red {
+        color: #f43f5e;
+        font-size: 16px;
+        line-height: 20px; /* 125% */
+      }
+    }
+    &-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 21px;
+      column-gap: 9px;
+
+      &__wrapper-image {
+        display: flex;
+        position: relative;
+      }
+      .wrapper-image__btc {
+        z-index: 1;
+      }
+      .wrapper-image__eth {
+        margin-left: -10px;
+        z-index: 2;
+      }
+      .wrapper-image__tet {
+        margin-left: -10px;
+        z-index: 3;
+      }
+      .wrapper-image__xrp {
+        margin-left: -10px;
+        z-index: 4;
+      }
+
+      &__text {
+        color: #18181b;
+        font-size: 15px;
+        line-height: 20px; /* 133.333% */
+      }
+    }
+  }
+}
