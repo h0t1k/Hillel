@@ -1,0 +1,161 @@
+@import "reset", "media";
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  height: 100%;
+}
+.grid-element {
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+.header {
+  background-color: black;
+  color: #fff;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  @include tablet {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  @include mobile {
+  }
+}
+.menu {
+  background-color: red;
+  color: #fff;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  @include tablet {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 17;
+  }
+
+  @include mobile {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+}
+.hero {
+  background-color: blue;
+  color: #fff;
+
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 9;
+
+  @include tablet {
+    grid-row-end: 7;
+  }
+
+  @include mobile {
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+}
+
+.main {
+  background-color: rgb(212, 221, 29);
+  color: #fff;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 9;
+  grid-row-end: 15;
+
+  @include tablet {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 12;
+  }
+
+  @include mobile {
+    grid-column-start: 1;
+    grid-row-start: 8;
+    grid-row-end: 11;
+  }
+}
+
+.banner {
+  background-color: rgb(159, 159, 179);
+  color: #fff;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 15;
+  grid-row-end: 17;
+
+  @include tablet {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    grid-row-end: 15;
+  }
+
+  @include mobile {
+    grid-column-start: 1;
+    grid-row-start: 11;
+    grid-row-end: 13;
+  }
+}
+
+.extra {
+  background-color: rgb(162, 7, 126);
+  color: #fff;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 12;
+  grid-row-end: 15;
+
+  @include tablet {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 15;
+    grid-row-end: 17;
+  }
+
+  @include mobile {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 13;
+    grid-row-end: 15;
+  }
+}
+
+.image {
+  background-color: rgb(18, 113, 19);
+  color: #fff;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 9;
+  grid-row-end: 12;
+
+  @include tablet {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 15;
+    grid-row-end: 17;
+  }
+
+  @include mobile {
+    grid-column-start: 1;
+
+    grid-row-start: 15;
+    grid-row-end: 17;
+  }
+}
